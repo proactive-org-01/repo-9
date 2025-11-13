@@ -19,6 +19,7 @@ resource "azurerm_app_service_plan" "premium_plan" {
   }
 
   tags = {
-    Environment = "dev"
+    Environment = "prod"
   }
 }
+
